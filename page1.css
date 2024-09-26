@@ -1,0 +1,65 @@
+body{
+    margin:0;
+   /* background-image: url("https://img.freepik.com/free-vector/silhouette-family-walking-outside-trees_1048-6378.jpg?size=626&ext=jpg");*/
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+nav{
+    background-color: rgb(233, 245, 125);
+    
+}
+a{
+    color: rgb(0, 3, 5);
+    padding:0cm 2cm 0cm;
+    text-decoration: none;
+    display:inline-block;
+    border-style:groove;
+    border-color: brown;
+}
+a:hover, a:focus{
+    
+    color:blue;
+    text-decoration:underline;
+    
+    border-radius: 30px;
+}
+#register{
+    background-color: azure;
+    float:inline-end;
+    padding-left:2rem;
+    text-decoration: none;
+    color:red;
+}
+#register:hover{
+     text-decoration: underline;
+}
+#fbody{
+    background-color: aquamarine;
+    border: top 2px;
+    padding:2px 3px 350px 3px;
+    border-top:10px solid black;
+    padding-left: 3%;
+    border-radius:5px;
+}
+#image{
+    float: inline-end;
+    padding-right: 15px;
+    border-radius: 10%;
+    width:300px;
+    height: auto;
+}
+#learn{
+  padding:20px 30px 5px 30px;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+}
+#learn:hover{
+    color:beige;
+    background-attachment: fixed;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    width: 300px;
+    transform: rotateY('60deg');
+}
